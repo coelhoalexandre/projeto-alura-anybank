@@ -1,67 +1,42 @@
-![Descricao da sua imagem](thumb.png)
 
-# Anybank App
+<h1 align="center"> AnyBank </h1>
 
-Aplicação de simulação bancária para gerenciamento de transações financeiras, focada no aprendizado de conceitos de autenticação e uso do Supabase como backend. A interface permite ao usuário consultar o extrato com histórico de transações, e realizar novas transações de forma prática e intuitiva.
+<div align="center">
 
-## 🔨 Funcionalidades do projeto
+  <a href="https://github.com/coelhoalexandre/projeto-alura-anybank/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a> <img src="https://img.shields.io/badge/Completo-lightgreen.svg" alt="Completo">
 
-A aplicação permite:
+</div>
 
-- Cadastrar novos usuários com autenticação via Supabase.
-- Cadastrar transações bancárias.
-- Visualizar o histórico de transações por tipo e valor.
+## Sumário
 
-## ✔️ Técnicas e tecnologias utilizadas
+- [Cursos e Instrutores](#cursos-e-instrutores)
+- [Objetivos do Projeto](#objetivos-do-projeto)
+- [Tecnologias Utilizadas](#tecnolgias-utilizadas)
 
-As principais tecnologias e técnicas aplicadas no projeto são:
+## Cursos e Instrutores
 
-- **Supabase**: Backend para autenticação e armazenamento dos dados de usuários e transações.
-- **React com TypeScript**: Criação da interface de usuário e lógica do aplicativo.
-- **React Context API**: Gerenciamento de estados globais para autenticação.
-- **React Router**: Navegação entre as diferentes páginas da aplicação.
-- **Hooks personalizados**: Implementação de lógica reutilizável e controle de autenticação.
+|Curso|Instrutores|
+|---|---|
+|[React: integração com Supabase e conceitos de arquitetura limpa na prática](https://cursos.alura.com.br/course/react-integracao-supabase-conceitos-arquitetura-limpa-pratica)|[**Vinicios Neves**](https://github.com/viniciosneves)|
 
-Este projeto aplica princípios de Arquitetura Limpa para promover uma estrutura modular, escalável e fácil de manter. Abaixo estão alguns dos conceitos utilizados para organizar a lógica de negócios, a manipulação de dados e a interface de forma coesa e adaptável:
 
-- Separação de camadas: organiza o projeto em camadas distintas para facilitar a manutenção e entendimento do fluxo.
-- Injeção de dependências: uso de interfaces para definir contratos entre camadas, permitindo trocas de tecnologias sem modificar a lógica central.
-- Use Cases: cada caso de uso encapsula uma ação específica, mantendo a lógica de negócios isolada e coesa.
-- Entidades e modelos de domínio: entidades como `IUser` e `ITransaction` representam dados centrais com regras específicas.
-- Camada de infraestrutura separada: acesso a dados e integração com o Supabase são isolados, preservando a lógica de negócio.
+## Objetivos do Projeto
 
-![Descricao da sua imagem](clean-arch.png)
+- Identificar as principais camadas e componentes da Arquitetura Limpa aplicados ao projeto;
+- Explicar a importância da separação de camadas para a manutenção e escalabilidade de uma aplicação;
+- Implementar casos de uso específicos seguindo os princípios da Arquitetura Limpa para organizar a lógica de negócio;
+- Avaliar a dependência entre camadas e a necessidade de interfaces para facilitar a troca de implementações;
+- Julgar a eficácia da injeção de dependências para tornar o código adaptável a diferentes tecnologias de backend;
+- Projetar novas funcionalidades utilizando os conceitos de entidades e casos de uso, garantindo consistência e coesão no código.
 
-## 📁 Acesso ao projeto
+## Tecnolgias Utilizadas
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/tree/projeto-inicial) ou [baixá-lo](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/archive/refs/heads/projeto-inicial.zip).
+1. HTML
+2. CSS
+3. JS
+4. TS
+5. React
+6. Vite
+7. Supabase
 
-## 🛠️ Abrir e rodar o projeto
-
-![Descricao da sua imagem](screenshot.png)
-
-Para rodar o projeto localmente, siga os passos:
-
-1. Instale as dependências do projeto:
-
-   ```bash
-   npm install
-   ```
-
-2. Configure o [Supabase](https://supabase.com/dashboard/projects) e crie um arquivo `.env.local` com as chaves de acesso:
-
-   ```plaintext
-   SUPABASE_URL=your_supabase_url
-   SUPABASE_KEY=your_supabase_key
-   ```
-
-3. Execute o projeto:
-   ```bash
-   npm run dev
-   ```
-
-Agora você pode acessar a aplicação em `http://localhost:5173/`.
-
-## 📚 Mais informações do curso
-
-Interessado em aprender mais? Confira o curso completo para desenvolver esta aplicação e entender os conceitos de forma prática!
+Autor: [Alexandre Coelho](https://github.com/coelhoalexandre)
